@@ -114,8 +114,7 @@ for name, link in pairs(featureScripts) do
 end
 
 local farmscripts = {
-["Slapple Farm"] = "https://raw.githubusercontent.com/Skzuppy/forge-hub/refs/heads/main/slapfarm_slapple",
-["Get Bob (need replica)"] = "https://raw.githubusercontent.com/TheWExploiter/Slap-Battles-TP/refs/heads/main/bobfarm.lua"
+["Slapple Farm"] = "https://raw.githubusercontent.com/TheWExploiter/OP-Scripts-By-Cat/refs/heads/main/SlappleFarmOP.lua"
 }
 
 for name, link in pairs(farmscripts) do
