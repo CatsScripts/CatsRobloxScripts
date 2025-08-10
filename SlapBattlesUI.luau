@@ -5,7 +5,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Pro666Pro/BypassAntiC
 local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/jensonhirst/Orion/main/source"))()
 
 local Window = OrionLib:MakeWindow({
-    Name = "Slap Battles Multi Script (V2.8)📜",
+    Name = "Slap Battles UI (V2.9)📜",
     HidePremium = false,
     SaveConfig = true,
     ConfigFolder = "TeleportConfig",
@@ -87,7 +87,7 @@ ChangeLogTab:AddSection({Name = "Update Changelogs"})
 CombatTab:AddSection({Name = "Combat"})
 
 local gloveScripts = {
-["Get All Badge Gloves"] = ""
+["Get All Badge Gloves (OP)"] = "https://raw.githubusercontent.com/CatsScripts/CatsRobloxScripts/refs/heads/main/AllBadgeGloves.luau"
 }
 
 for name, link in pairs(gloveScripts) do
